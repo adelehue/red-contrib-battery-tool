@@ -1,0 +1,22 @@
+{
+    "name"         : "red-contrib-battery-tool",
+    "version"      : "1.0.0",
+    "description"  : "A Node Red node to get information about the battery",
+    "dependencies": {
+        "systeminformation": ">=3.48.4"
+    },
+    "author": {
+        "name": "Bart Butenaers"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "battery" ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adelehue/red-contrib-battery-tool.git"
+    },
+    "node-red"     : {
+        "nodes": {
+            "battery": "battery.js"
+        }
+    }
+}
